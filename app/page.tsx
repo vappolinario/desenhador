@@ -3,8 +3,10 @@ import PromptInput from './components/PromptInput'
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <PromptInput />
+        <main>
+            <div>
+                <PromptInput />
+            </div>
         </main>
     )
 }
