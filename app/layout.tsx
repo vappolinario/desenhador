@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='flex justify-center'>{children}</body>
+      <body className='flex justify-center bg-gunmetal-500'>{children}</body>
     </html>
   )
 }

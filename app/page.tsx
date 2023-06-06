@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import PromptInput from './components/PromptInput'
+import PromptInput from './components/PromptInput/PromptInput'
 
 export default function Home() {
     return (
-        <main>
+        <main >
             <div>
                 <PromptInput />
             </div>

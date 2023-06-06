@@ -1,0 +1,11 @@
+.input {
+    @apply appearance-none bg-transparent border-none w-full text-slategray-500 mr-3 py-1 px-2 leading-tight focus:outline-none
+}
+
+.button {
+    @apply  bg-slategray-500 text-seagreen-500 py-1 px-2 rounded-xl hover:bg-seagreen-950
+}
+
+.divSeparator {
+    @apply border-b border-seagreen-500 py-2
+}

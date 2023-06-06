@@ -1,5 +1,5 @@
 import ArtList from '../components/ArtList';
-import PromptInput from '../components/PromptInput';
+import PromptInput from '../components/PromptInput/PromptInput';
 import { Art } from '../lib/art';
 import { pb } from '../lib/pocketbase';
 

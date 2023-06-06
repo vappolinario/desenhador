@@ -7,7 +7,7 @@ interface Props {
 
 export default function ArtList({ arts }: Props) {
     return (
-        <div className='w-4/5 flex justify-center items-center py-2 '>
+        <div className='w-4/5 flex justify-center items-center py-2'>
             <div>
                 {
                     arts.map((art) => {
