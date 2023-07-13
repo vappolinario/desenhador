@@ -13,8 +13,8 @@ async function generateImage(prompt: string): Promise<string> {
         const aiResponse = await openai.createImage({
             prompt,
             n: 1,
-            // size: '1024x1024',
-            size: '512x512',
+             size: '1024x1024',
+            // size: '512x512',
         });
         url = aiResponse.data.data[0].url!;
     } catch (error: any) {
